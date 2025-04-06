@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="Bridgeicon2.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+  
+    <title>Amazing Bridges</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+    
+  <!-- scroll to top button -->
+  <a onclick="scrollToTop()"><img class="to-top" src="icons8-circle-50.png" alt=""></a>
+
+  <!-- java script -->
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script> -->
+
+<script>
+  // scroll to top function
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
+  window.addEventListener('scroll', function () {
+    scrol();
+  });
+
+  function scrol() {
+    const totop = document.querySelector(".to-top");
+    if (window.pageYOffset > 100) {
+      totop.classList.add("active");
+    } else {
+      totop.classList.remove("active");
+    }
+  }
+</script>
+
+<script src="assets/js/bootstrap.min.js"></script>
+
+</html>

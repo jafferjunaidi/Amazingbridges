@@ -1,2 +1,2 @@
 # Amazingbridges
-Amazing bridges across the world 
+Amazing bridges across the world

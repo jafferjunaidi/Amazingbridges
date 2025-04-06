@@ -1,0 +1,1812 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color: rgb(20, 33, 61) !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #14213d !important;
+        font-weight: 600 !important;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    p{
+        font-size: 14px;
+    }
+    label{
+        font-weight: 400 !important;
+    }
+    select{
+        border-radius: 50px !important;
+    }
+
+}
+
+body {
+    scroll-behavior: smooth;
+
+}
+
+/* navbar */
+.navlinkdrop {
+    color: #000 !important;
+}
+
+.navbar {
+    background-color: #14213d !important;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 13px;
+    transition: all 0.5s;
+}
+
+.nav-link:hover {
+    transform: translateY(-5px);
+    color: #fca311 !important;
+}
+
+.dropdown-item:hover{
+    color: #fca311 !important;
+}
+
+.btn-faqs {
+    background-color: #fca311;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    border-radius: 50px;
+    color: black !important;
+    line-height: 14px;
+    margin-top: 3px;
+    border: none;
+    transition: all 1s;
+}
+
+.btn-faqs:hover {
+    background: none !important;
+    border: 1px solid #fca311;
+    color: white !important;
+
+
+}
+
+/* banner of the webpage */
+.bannercontainer {
+    height: 90vh;
+    clip-path: polygon(0% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('bridge11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bannercontainer .row h1 {
+    text-align: center;
+    color: white !important;
+}
+
+.bannercontainer .row p {
+    text-align: center;
+    color: white !important;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.bannercontainer .row {
+    /* padding: 300px; */
+    font-size: 13px;
+}
+
+.bannerheading {
+    font-size: 40px;
+}
+
+.btn-banner {
+    background-color: #fca311;
+    width: 200px;
+    text-align: center;
+    border-radius: 50px;
+    color: black !important;
+    border: none !important;
+    font-weight: 500 !important;
+    margin-top: 5px;
+    transition: all 0.5s !important;
+}
+
+.btn-banner:hover {
+    background: none !important;
+    border: 2px solid #fca311 !important;
+    color: #fca311 !important;
+    transform: translateY(-5px);
+
+}
+
+/* famous bridges container */
+.famousbridge1 {
+    height: 300px;
+    width: 90%;
+    border-radius: 10px;
+    background-image: url('bridge8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+    padding: 20px;
+
+}
+
+.famousbridge1:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.famousbridge2 {
+    height: 300px;
+    width: 90%;
+    border-radius: 10px;
+    background-image: url('bridge1.png');
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.famousbridge2:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+/* elevate knowledge section */
+.elevateknowlegderow {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-famousbridge {
+    width: 100px;
+    background-color: #fca311 !important;
+    font-weight: 500;
+    border-radius: 50px;
+    font-size: 13px;
+    height: 35px !important;
+    text-decoration: underline;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.btn-famousbridge:hover {
+    transform: translateY(-3px);
+}
+
+.elevateh1 {
+    color: #14213d;
+}
+
+/* world record section */
+.guinness {
+
+    background: linear-gradient(rgba(3, 3, 3, 0.452), rgba(0, 0, 0, 0.438)), url('bridge12.png');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+    padding: 20px;
+
+    h1 {
+        color: white !important;
+    }
+}
+
+.fa-calendar-days {
+    color: #14213d;
+}
+
+.millauimg img {
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.millauimg2 img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.millaubtn button {
+    background-color: #fca311;
+    width: 200px;
+    text-align: center;
+    border-radius: 50px;
+    color: black !important;
+    border: none !important;
+    transition: all 1s;
+    font-weight: 500 !important;
+    margin-top: 5px;
+    height: 35px;
+}
+
+.millaubtn button:hover {
+    transform: translateY(-3px);
+    background:none;
+    border: 1px solid #fca311 !important;
+    color: #fca311 !important;
+
+}
+
+/* tower bridge page css */
+.towerbridgerow img {
+    height: 100vh;
+    border-radius: 50px;
+    transition: all 1s;
+}
+
+.towerbridgerow img:hover {
+    transform: translateY(-3px);
+
+}
+
+.towerbridgeimg2 img {
+    width: 100%;
+    border-radius: 40px;
+    transition: all 1s ease;
+}
+
+.famouscol img {
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+#explore {
+    background-color: #fca311;
+    width: 200px;
+    text-align: center;
+    border-radius: 50px;
+    color: black !important;
+    border: none !important;
+    transition: all 1s;
+    font-weight: 500 !important;
+    margin-top: 5px;
+    height: 35px;
+}
+
+#explore:hover {
+    transform: translateY(-3px);
+    background:none;
+    border: 1px solid #fca311 !important;
+    color: #fca311 !important;
+
+
+}
+
+/* pakistan famous bridges page */
+.famousrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: #d1dbf0 !important;
+}
+
+.panel1 {
+    background-image: url('pakbridge.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+
+}
+
+.panel1 h5 {
+    opacity: 0;
+}
+
+.panel1:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.panel1:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.panel2 {
+    background-image: url('pakbridge6.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.panel2 h5 {
+    opacity: 0;
+}
+
+.panel2:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.panel2:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.panel3 {
+    background-image: url('pakbridge5.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.panel3 h5 {
+    opacity: 0;
+}
+
+.panel3:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.panel3:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.panel4 {
+    background-image: url('pakbridge2.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.panel4 h5 {
+    opacity: 0;
+}
+
+.panel4:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.panel4:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+/* pak longest bridges */
+.paklongpanel1 {
+    background-image: url('pakbridge8.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+
+}
+
+.paklongpanel1 h5 {
+    opacity: 0;
+}
+
+.paklongpanel1:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.paklongpanel1:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.paklongpanel2 {
+    background-image: url('pakbridge10.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.paklongpanel2 h5 {
+    opacity: 0;
+}
+
+.paklongpanel2:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.paklongpanel2:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.paklongpanel3 {
+    background-image: url('pakbridge9.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.paklongpanel3 h5 {
+    opacity: 0;
+}
+
+.paklongpanel3:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.paklongpanel3:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.paklongpanel4 {
+    background-image: url('bridge11.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.paklongpanel4 h5 {
+    opacity: 0;
+}
+
+.paklongpanel4:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.paklongpanel4:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+/* pak old bridges */
+.pakoldpanel1 {
+    background-image: url('pakbridge3.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+
+}
+
+.pakoldpanel1 h5 {
+    opacity: 0;
+}
+
+.pakoldpanel1:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+
+.pakoldpanel1:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.pakoldpanel2 {
+    background-image: url('bridge4.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.pakoldpanel2 h5 {
+    opacity: 0;
+}
+
+.pakoldpanel2:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.pakoldpanel2:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.pakoldpanel3 {
+    background-image: url('bridge2.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.pakoldpanel3 h5 {
+    opacity: 0;
+}
+
+.pakoldpanel3:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.pakoldpanel3:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.pakoldpanel4 {
+    background-image: url('bridge10.jpeg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.pakoldpanel4 h5 {
+    opacity: 0;
+}
+
+.pakoldpanel4:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.pakoldpanel4:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+/* famous bridges description */
+.famous1 img {
+    height: 350px;
+    width: 100%;
+    border-radius: 50px;
+    transition: all 1s;
+}
+
+/* gallery */
+.sliderimg .card {
+    border: none !important;
+}
+
+.sliderimg img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+
+
+}
+
+.galleryimg {
+    transition: all 1s;
+    overflow: hidden;
+    height: 250px;
+    width: 300px;
+    border-radius: 16px;
+}
+
+.galleryimg:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* scroll to top button */
+.to-top {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .4s;
+    opacity: 0;
+}
+
+.top-top img {
+    height: 50px;
+    width: 50px;
+}
+
+.to-top.active {
+    bottom: 16px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.fa-arrow-up {
+    color: black;
+}
+
+.beijing img {
+    height: 100%;
+    border-radius: 16px;
+}
+
+/* china famous bridges */
+.cpanel1 {
+    background-image: url('Chinabridge2.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+
+}
+
+.cpanel1 h5 {
+    opacity: 0;
+}
+
+.cpanel1:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.cpanel1:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.cpanel2 {
+    background-image: url('Chinabridge.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.cpanel2 h5 {
+    opacity: 0;
+}
+
+.cpanel2:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.cpanel2:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.cpanel3 {
+    background-image: url('Chinabridge3.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.cpanel3 h5 {
+    opacity: 0;
+}
+
+.cpanel3:hover h5 {
+    opacity: 100%;
+    color:white !important;
+}
+
+.cpanel3:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.cpanel4 {
+    background-image: url('bridge2.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.cpanel4 h5 {
+    opacity: 0;
+}
+
+.cpanel4:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.cpanel4:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+/* oldest bridge china page */
+.opanel1 {
+    background-image: url('Chinabridge8.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+
+}
+
+.opanel1 h5 {
+    opacity: 0;
+}
+
+.opanel1:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.opanel1:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.opanel2 {
+    background-image: url('Chinabridge7.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.opanel2 h5 {
+    opacity: 0;
+}
+
+.opanel2:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.opanel2:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.opanel3 {
+    background-image: url('Chinabridge6.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.opanel3 h5 {
+    opacity: 0;
+}
+
+.opanel3:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.opanel3:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.opanel4 {
+    background-image: url('Chinabridge5.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.opanel4 h5 {
+    opacity: 0;
+}
+
+.opanel4:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.opanel4:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+/* longest china bridges */
+.tpanel1 {
+    background-image: url('Chinabridge10.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+
+}
+
+.tpanel1 h5 {
+    opacity: 0;
+}
+
+.tpanel1:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.tpanel1:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.tpanel2 {
+    background-image: url('Chinabridge11.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.tpanel2 h5 {
+    opacity: 0;
+}
+
+.tpanel2:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.tpanel2:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.tpanel3 {
+    background-image: url('Chinabridge12.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.tpanel3 h5 {
+    opacity: 0;
+}
+
+.tpanel3:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.tpanel3:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.tpanel4 {
+    background-image: url('Chinabridge9.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.tpanel4 h5 {
+    opacity: 0;
+}
+
+.tpanel4:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.tpanel4:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+/* uk famous bridges */
+.ukfampanel1 {
+    background-image: url('bridge7.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+
+}
+
+.ukfampanel1 h5 {
+    opacity: 0;
+}
+
+.ukfampanel1:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.ukfampanel1:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.ukfampanel2 {
+    background-image: url('bridge8.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.ukfampanel2 h5 {
+    opacity: 0;
+}
+
+.ukfampanel2:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.ukfampanel2:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.ukfampanel3 {
+    background-image: url('chainbridge2.png');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.ukfampanel3 h5 {
+    opacity: 0;
+}
+
+.ukfampanel3:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.ukfampanel3:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.ukfampanel4 {
+    background-image: url('uklongst1.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.ukfampanel4 h5 {
+    opacity: 0;
+}
+
+.ukfampanel4:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.ukfampanel4:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+/* uk oldest bridges */
+.ukoldpanel1 {
+    background-image: url('UKbridge5.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+
+}
+
+.ukoldpanel1 h5 {
+    opacity: 0;
+}
+
+.ukoldpanel1:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.ukoldpanel1:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.ukoldpanel2 {
+    background-image: url('UKbridge4.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.ukoldpanel2 h5 {
+    opacity: 0;
+}
+
+.ukoldpanel2:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.ukoldpanel2:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.ukoldpanel3 {
+    background-image: url('UKbridge2.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.ukoldpanel3 h5 {
+    opacity: 0;
+}
+
+.ukoldpanel3:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.ukoldpanel3:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.ukoldpanel4 {
+    background-image: url('UKbridge3.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.ukoldpanel4 h5 {
+    opacity: 0;
+}
+
+.ukoldpanel4:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.ukoldpanel4:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.UKOLD img {
+    object-fit: cover;
+}
+
+/* uk longest bridges */
+.uklongpanel1 {
+    background-image: url('UKbridge8.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+
+}
+
+.uklongpanel1 h5 {
+    opacity: 0;
+}
+
+.uklongpanel1:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.uklongpanel1:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.uklongpanel2 {
+    background-image: url('UKbridge9.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.uklongpanel2 h5 {
+    opacity: 0;
+}
+
+.uklongpanel2:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.uklongpanel2:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.uklongpanel3 {
+    background-image: url('UKbridge10.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.uklongpanel3 h5 {
+    opacity: 0;
+}
+
+.uklongpanel3:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.uklongpanel3:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.uklongpanel4 {
+    background-image: url('UKbridge7.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.uklongpanel4 h5 {
+    opacity: 0;
+}
+
+.uklongpanel4:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.uklongpanel4:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+/* index expanding images */
+.indexpanel1 {
+    background-image: url('uklongst1.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+
+}
+
+.indexpanel1 h5 {
+    opacity: 0;
+}
+
+.indexpanel1:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.indexpanel1:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.indexpanel2 {
+    background-image: url('italyfamous1.png');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.indexpanel2 h5 {
+    opacity: 0;
+}
+
+.indexpanel2:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.indexpanel2:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.indexpanel3 {
+    background-image: url('italyoldest1.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.indexpanel3 h5 {
+    opacity: 0;
+}
+
+.indexpanel3:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.indexpanel3:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+.indexpanel4 {
+    background-image: url('italylongest.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.indexpanel4 h5 {
+    opacity: 0;
+}
+
+.indexpanel4:hover h5 {
+    opacity: 100%;
+    color: white !important;
+}
+
+.indexpanel4:hover {
+    cursor: pointer;
+    width: 30%;
+}
+
+/* contact us */
+.formcontainer input {
+    border-radius: 50px;
+    font-size: 14px;
+
+}
+
+.formcontainer input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid #14213d !important;
+
+}
+
+.formcontainer textarea {
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+.formcontainer textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid #14213d !important;
+}
+
+.infosection i {
+    font-size: 30px;
+    color: #fca311;
+}
+
+.infosection {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.emailinfo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+
+
+}
+.emailinfo h6{
+    color: #14213d !important;
+  
+}
+
+/* queries page */
+
+.accordion-button {
+    background-color: white !important;
+    color: #000 !important;
+
+}
+
+.accordion-button::after {
+    color: white !important;
+}
+
+.accordion-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #fca311 !important;
+    background-color: #14213d !important;
+    color: #d1dbf0 !important;
+}
+
+.dropdown-toggle:focus {
+    border: none !important;
+}
+
+.dropdown-toggle {
+    border: none !important;
+}
+.dropdown-menu{
+    background-color: #14213d;
+    
+}
+.dropdown-item:hover{
+    background-color: #2e58b342 !important;
+}
+.dropdown-menu li a{
+    color: #fff !important;
+}
+.aboutcon{
+    height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Chinabridge3.jpg');
+    color: white !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutcon h1{
+    color: white !important;
+}
+.aboutmodel img{
+    border-radius: 16px;
+    box-shadow: 10px 10px 0px #fca311;
+    margin-bottom: 12px;
+
+}
+.aboutmodel h1{
+    color: #fca311 !important;
+}
+.sitemapcon img{
+    height: 90vh;
+}
+/* footer */
+.footer{
+    background-color: #14213d;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+.footerlogo img{
+    height: 150px;
+    width: 90%;
+    margin-top: 75px
+}
+.quicklinks{
+    color:white !important;
+}
+.quicklinks h2,h6{
+    color:white !important;
+}
+.quicklinks a{
+    color:white !important;
+    text-decoration: none;
+}
+.quicklinks a:hover{
+    color:orange !important;
+    text-decoration: none;
+
+}
+.footercontact{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 7px;
+}
+.footercontact i{
+    margin-right: 10px;
+}
+.footerlogo i{
+    font-size: 25px;
+    margin-right: 40px;
+    object-fit: cover;
+}
+.footercon{
+    width: 100%;
+    background-color: #14213d;
+    height: 300px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+.footercon p{
+    margin-top: -7px;
+}
+.radio h6{
+color: #14213d !important;
+}
+.feedbackpara{
+    font-weight:500;
+}
+/* advertise , travel with us page*/
+.planescon{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('aeroplane.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 30px;
+}
+
+.travel-price{
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+.buscon{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('bus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 30px;
+}
+.trustcon img{
+    height: 300px;
+    width: 100%;
+    border-radius: 16px;
+}
+.travelwithus{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+.form-select:focus {
+    outline: none; 
+    box-shadow: none;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid #14213d !important; 
+  }
